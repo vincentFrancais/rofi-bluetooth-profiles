@@ -1,6 +1,6 @@
 <div align="center">
-<h3>rofi-bluetooth</h3>
-<img src="https://github.com/ClydeDroid/rofi-bluetooth/raw/master/.meta/menu.gif">
+<h3>rofi-bluetooth-profiles</h3>
+forked from https://github.com/ClydeDroid/rofi-bluetooth/
 
 `bluetoothctl` `rofi` `dmenu`
 
@@ -11,9 +11,9 @@
 Install from [AUR (rofi-bluetooth-git)](https://aur.archlinux.org/packages/rofi-bluetooth-git/), or:
 
 1. Install dependencies: [rofi](https://github.com/davatorium/rofi) and bluetoothctl (provided by `bluez-utils` in Arch)
-1. `git clone git@github.com:ClydeDroid/rofi-bluetooth.git`
-1. `cd rofi-bluetooth`
-1. `./rofi-bluetooth`
+2. Clone this repo
+3. `cd rofi-bluetooth-profiles`
+4. `./rofi-bluetooth`
 1. (Optional) For easy access, add the script somewhere in your `$PATH`.
 
 ### Polybar configuration
@@ -35,6 +35,6 @@ bindsym $mod+b exec --no-startup-id rofi-bluetooth
 ```
 
 ### Thanks for the inspiration!
-
+- [ClydeDroid/rofi-bluetooth original rofi-bluetooth creator](https://github.com/nickclyde/rofi-bluetooth)
 - [firecat53/networkmanager-dmenu](https://github.com/firecat53/networkmanager-dmenu)
 - [x70b1's bluetoothctl polybar script](https://github.com/polybar/polybar-scripts/tree/master/polybar-scripts/system-bluetooth-bluetoothctl)
