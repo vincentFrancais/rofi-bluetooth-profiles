@@ -8,8 +8,6 @@ forked from https://github.com/ClydeDroid/rofi-bluetooth/
 
 ## Installation
 
-Install from [AUR (rofi-bluetooth-git)](https://aur.archlinux.org/packages/rofi-bluetooth-git/), or:
-
 1. Install dependencies: [rofi](https://github.com/davatorium/rofi) and bluetoothctl (provided by `bluez-utils` in Arch)
 2. Clone this repo
 3. `cd rofi-bluetooth-profiles`
